@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redploid - ADS HTML FORM</title>
+</head>
+<body>
+ <main>
+    <form>
+        <table>
+        <tr>
+            <td><label for="idname">Nome:</label></td>
+            <td><input type="text" name="idname" id="idname"></td>
+        </tr>
+        <tr>
+            <td><label for="idemail">Email:</label></td>
+            <td><input type="email" id="idemail" nome="idemail" /></td>
+        </tr>
+        <tr>
+            <td><label for="idpassword">Senha:</label></td>
+            <td><input type="password" id="idpassword" name="idpassword/"></td>
+        </tr>
+        <tr>
+            <td><label for="iddate">Nascimento:</label></td>
+            <td><input type="date" id="iddate" name="iddate"/></td>
+        </tr>
+        <tr>
+            <td><label for="idfile">Arquivo:</label></td>
+            <td><input type="file" id="idfile" name="idfile" /></td>
+        </tr>
+        <tr>
+            <td>Compartilhar:</td>
+            <td>
+                <label for="idcheck1">Sim</label>
+                <input type="checkbox" name="idcheck" id="idcheck1" value="Sim" />
+                <label for="idcheck2">Não</label>
+                <input type="checkbox" name="idcheck" id="idcheck2" value="Não" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" onclick="alert('Fomrulário enviado')" value="Enviar" />
+                <input type="reset" value="Limpar">
+            </td>    
+        </tr>
+        </table>
+    </form>    
+ </main>
+</body>
+</html>
